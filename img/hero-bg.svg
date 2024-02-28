@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="565" viewBox="0 0 1440 565">
+  <defs>
+    <linearGradient id="hero-bg-b" x1="50%" x2="50%" y1="100%" y2="0%">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="100%" stop-opacity=".5"/>
+    </linearGradient>
+    <radialGradient id="hero-bg-c" cy="100%" r="80.583%" fx="50%" fy="100%" gradientTransform="matrix(0 1 -.51614 0 1.016 .5)">
+      <stop offset="0%" stop-color="#FFF" stop-opacity=".5"/>
+      <stop offset="100%" stop-color="#FFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="hero-bg-d" cy="87.75%" r="100%" fx="50%" fy="87.75%" gradientTransform="matrix(0 1 -.38031 0 .834 .377)">
+      <stop offset="0%" stop-opacity="0"/>
+      <stop offset="100%" stop-opacity=".5"/>
+    </radialGradient>
+    <rect id="hero-bg-a" width="1440" height="565"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#022C3D" xlink:href="#hero-bg-a"/>
+    <use fill="url(#hero-bg-b)" fill-opacity=".8" style="mix-blend-mode:multiply" xlink:href="#hero-bg-a"/>
+    <use fill="url(#hero-bg-c)" fill-opacity=".3" style="mix-blend-mode:screen" xlink:href="#hero-bg-a"/>
+    <use fill="url(#hero-bg-d)" fill-opacity=".6" style="mix-blend-mode:multiply" xlink:href="#hero-bg-a"/>
+  </g>
+</svg>
